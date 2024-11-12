@@ -30,8 +30,8 @@ const ListaDocentes = () => {
         labels: docentes.map((docente) => docente.nombre),
         datasets: [
             {
-                label: 'ID ISSEMYN de Docentes',
-                data: docentes.map((docente) => docente.issemyn),
+                label: 'ID de Docentes',
+                data: docentes.map((docente) => docente.id),  
                 backgroundColor: 'rgba(75, 192, 192, 0.6)',
                 borderColor: 'rgba(75, 192, 192, 1)',
                 borderWidth: 1,
@@ -45,9 +45,9 @@ const ListaDocentes = () => {
         scales: {
             y: {
                 beginAtZero: true, // Empieza desde 0 para evitar que todas las barras estén demasiado altas
-                suggestedMax: Math.max(...docentes.map(docente => docente.issemyn)) + 10, // Ajusta el máximo del eje y basado en los datos
+                suggestedMax: Math.max(...docentes.map(docente => docente.id)) + 10, // Ajusta el máximo del eje y basado en los datos
                 ticks: {
-                    stepSize: Math.round(Math.max(...docentes.map(docente => docente.issemyn)) / 5), // Divide en 5 pasos
+                    stepSize: Math.round(Math.max(...docentes.map(docente => docente.id)) / 5), // Divide en 5 pasos
                 },
             },
         },
@@ -67,9 +67,9 @@ const ListaDocentes = () => {
             <h1 className="App App-link">DOCENTES INGENIERÍA INFORMÁTICA TESSFP</h1>
             <div className="docentes-container">
                 {docentes.map((docente) => (
-                    <div className="docente-card" key={docente.issemyn}>
+                    <div className="docente-card" key={docente.id}> {/* Cambié issemyn por id */}
                         <div>
-                            Clave ISSEMYN: <strong>{docente.issemyn}</strong>
+                            Clave ID: <strong>{docente.id}</strong> {/* Cambié issemyn por id */}
                         </div>
                         <div>
                             <p>Nombre: <strong>{docente.nombre}</strong></p>
