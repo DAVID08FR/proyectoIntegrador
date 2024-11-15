@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ListaDocentes from './Trabajadores/Docente';
-import ListaAlumnos from './Alumnos/ListaAlumnos';
-
+import Calificaiones from './Estudiantes/Calificaciones';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ListaDocentes/>
-    <ListaAlumnos />
+    <Calificaiones/>
+
   </React.StrictMode>
 );
 

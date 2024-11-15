@@ -1,0 +1,35 @@
+[33mcommit 1ede2d62ba8eecd226104a7c25f6fccb07a93dff[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: david felipe <davidfr339@gmail.com>
+Date:   Thu Nov 14 15:36:21 2024 -0600
+
+    correccion de error
+
+[33mcommit f9ba1651b9a0384a143d6555b2e98d7cc535b8fc[m
+Author: david felipe <davidfr339@gmail.com>
+Date:   Thu Nov 14 15:31:20 2024 -0600
+
+    Actualización del proyecto con ListaAlumnos y gráficas de calificaciones
+
+[33mcommit 253001bad5f6280b6e80d009c0d749f386038a3e[m
+Author: david felipe <davidfr339@gmail.com>
+Date:   Mon Nov 11 20:33:33 2024 -0600
+
+    Graficas
+
+[33mcommit be3034a37fa5ee65ca60ccc9541297a3af5d6b2c[m
+Author: david felipe <davidfr339@gmail.com>
+Date:   Mon Nov 11 19:19:56 2024 -0600
+
+    gh-pages agregado
+
+[33mcommit 56e7a363a78537034cc943918d7768267bdf1962[m
+Author: david felipe <davidfr339@gmail.com>
+Date:   Mon Nov 11 19:13:55 2024 -0600
+
+    first commit
+
+[33mcommit 2f71355ff84196dc35211c76d7902718b1d1c13f[m
+Author: david felipe <davidfr339@gmail.com>
+Date:   Wed Nov 6 17:04:43 2024 -0600
+
+    Initialize project using Create React App
